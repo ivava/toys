@@ -3,7 +3,7 @@
 @mediumFont: 'roboto_medium';
 @lightFont: 'roboto_light';
 @ultraLightFont: 'roboto_thin';
-@boldFont: 'raleway_black';
+@boldFont: 'roleway_black';
 // font
 // size
 @baseFontSize: 14px;
@@ -25,6 +25,9 @@ body {
 }
 h1,h2,h3,h4 {
   font-family: @mediumFont;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px @bord_color;
 }
 h1 {
   font-size: @h1_size;
@@ -76,5 +79,11 @@ p {
 }
 .white_text {
   color: @white;
+}
+.text_color_base {
+  color: @base_color;
+}
+.light_black_color {
+  color: @light_black;
 }
 

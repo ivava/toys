@@ -1,7 +1,17 @@
-.btn_base {
+.button {
   display: block;
-  width: 180px;
+  width: @button_width;
+  padding: 13px;
   box-sizing: border-box;
   font-size: @baseFontSize + 2;
   background: @base_color;
+  color: @white;
+  text-transform: uppercase;
+  .align();
+  &.circle {
+    background: transparent;
+    .border(@white);
+    .radius(@button_width / 2);
+    .btn_hover();
+  }
 }

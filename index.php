@@ -1,39 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Главная</title>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/bf8c20532a.js"></script>
-    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-</head>
-<body>
-<header>
-<div class="main_nav">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 header_brand">
-                <a class="brand" href="/">LOVE</a>
-            </div>
-            <div class="col-md-6 header_nav">
-                <ul class="inline_nav">
-                    <li><a href="#" class="up active">Главная</a></li>
-                    <li><a href="#" class="up">Продукт</a></li>
-                    <li><a href="#" class="up">ОТЗЫВЫ</a></li>
-                    <li><a href="#" class="up">МАГАЗИН</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-</header>
+<?php
+include ("header.php");
+?>
 <main>
     <div class="main_wrapper">
         <div class="container-fluid small_padd">
@@ -49,7 +16,7 @@
                 <div class="col-md-6 item_wrapper">
                     <div class="media item">
                         <div class="media-left item_thumb">
-                            <img src="assets/img/nora-pic-2.jpg" alt="nora" />
+                            <img src="assets/img/pic-nora.jpg" alt="nora" />
                         </div>
                         <div class="media-body item_about">
                            <div>
@@ -59,7 +26,7 @@
                                 <p>Наши теледильдонические секс-игрушки помогут оживить ваши отношения на расстоянии!</p>
                                </div>
                             <div class="more_btn">
-                            <a class="btn_base" href="#"></a>
+                            <a class="button circle" href="#">Подробнее</a>
                                 </div>
                         </div>
                     </div>
@@ -67,7 +34,7 @@
                 <div class="col-md-6 item_wrapper">
                     <div class="media item">
                         <div class="media-left item_thumb">
-                            <img src="assets/img/nora-pic-2.jpg" alt="nora" />
+                            <img src="assets/img/pic-nora.jpg" alt="nora" />
                         </div>
                         <div class="media-body item_about">
                             <div>
@@ -77,7 +44,7 @@
                                 <p>Наши теледильдонические секс-игрушки помогут оживить ваши отношения на расстоянии!</p>
                             </div>
                             <div class="more_btn">
-                                <a class="btn_base" href="#"></a>
+                                <a class="button circle" href="#">Подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -86,10 +53,8 @@
             </div>
     </div>
 </main>
-<div class="pre_footer">
-</div>
-<footer>
-
-</footer>
+<?php
+include ("footer.php");
+?>
 </body>
 </html>

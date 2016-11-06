@@ -6,16 +6,21 @@
      @item_background: darken(@base_color, 15%);
      background: @item_background;
      .dark_hover(@item_background);
-   }
+    }
     .item_thumb {
       width: 30%;
+      overflow: hidden;
       img {
         max-width: 100%;
         height: auto;
+        .img_hover();
       }
     }
     .item_about {
-      padding: 20px;
+      padding: 25px;
+      .more_btn {
+        margin-top: 25px;
+      }
     }
   }
 }
