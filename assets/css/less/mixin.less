@@ -1,0 +1,60 @@
+// hovers
+.text_hover(@color: @base_color, @text-decoration: none) {
+  .transition(all, 0.2s);
+  &:hover {
+    color: @color;
+    text-decoration: @text-decoration !important;
+  }
+}
+// hovers
+
+
+//prefix mixins
+.transition(@what: all, @time: 0.4s) {
+  -webkit-transition: @what @time;
+  -moz-transition: @what @time;
+  -ms-transition: @what @time;
+  -o-transition: @what @time;
+  transition: @what @time;
+}
+.transition_fast(@prop: all, @time: 0.2s) {
+  -webkit-transition: @prop @time;
+  -moz-transition: @prop @time;
+  -ms-transition: @prop @time;
+  -o-transition: @prop @time;
+  transition: @prop @time;
+}
+.transition-more(@what, @time, @what-2, @time-2) {
+  -webkit-transition: @what @time, @what-2 @time-2;
+  -moz-transition: @what @time, @what-2 @time-2;
+  -ms-transition: @what @time, @what-2 @time-2;
+  -o-transition: @what @time, @what-2 @time-2;
+  transition: @what @time, @what-2 @time-2;
+}
+
+.flex_align(@space: space-between) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: @space;
+  align-items: center;
+}
+
+//prefix mixins
+
+.align(@align: center) {
+  text-align: @align;
+}
+.cover(@url) {
+  background: url(@url) no-repeat;
+  background-size: cover;
+}
+
+.dark_hover(@color) {
+  .transition_fast();
+  &:hover {
+    background: darken(@color, 5%);
+  }
+}

@@ -1,0 +1,21 @@
+.items_panels {
+  .item_wrapper {
+    padding: 0 40px;
+   .item {
+     cursor: pointer;
+     @item_background: darken(@base_color, 15%);
+     background: @item_background;
+     .dark_hover(@item_background);
+   }
+    .item_thumb {
+      width: 30%;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .item_about {
+      padding: 20px;
+    }
+  }
+}
