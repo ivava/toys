@@ -48,31 +48,71 @@ include ('header.php');
             <div class="row">
                 <div class="col-md-4 item rotate_head">
                     <div class="item_thumb">
-                        <img src="assets/img/gifs/Nora-rotating-head.gif" />
+                        <img src="assets/img/gifs/Nora-rotating-head.gif" class="img-center" />
                     </div>
                     <div class="item_heading">
                         <h3>Крутящаяся головка</h3>
                     </div>
                     <div class="item_options stimulation">
                         <p>Регулируй уровень стимуляции точки G</p>
-                        <ul>
+                        <ul class="clearfix">
+                            <li>
+                                <span></span>
+                                <span></span>
+                                <span class="pink"></span>
+                                <p>Slow</p>
+                            </li>
+                            <li>
+                                <span></span>
+                                <span class="pink"></span>
+                                <span class="pink"></span>
+                                <p>Medium</p>
+                            </li>
                             <li>
                                 <span class="pink"></span>
-                                <span></span>
-                                <span></span>
-                                <p></p>
+                                <span class="pink"></span>
+                                <span class="pink"></span>
+                                <p>Fast</p>
                             </li>
-                            <li></li>
-                            <li></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4 item">
-                    <div class="item_thumb"></div>
-                    <div class="item_heading"></div>
-                    <div class="item_options"></div>
+                    <div class="item_thumb">
+                        <img src="assets/img/Nora-shaft.jpg" alt="nora" class="img-center" />
+                    </div>
+                    <div class="item_heading">
+                        <h3>Обтекаемая форма</h3>
+                    </div>
+                    <div class="item_options">
+                        <p>Мягкая стимуляция нужных мест во время движений</p>
+                    </div>
                 </div>
-                <div class="col-md-4 item"></div>
+                <div class="col-md-4 item">
+                    <div class="item_thumb">
+                        <img src="assets/img/gifs/Nora-vibrating-arm.gif" alt="nora" class="img-center" />
+                    </div>
+                    <div class="item_heading">
+                        <h3>Вибрирующая ручка</h3>
+                    </div>
+                    <div class="item_options multiply_body">
+                        <p>Гибкая ручка подходит для разных типов тел</p>
+                        <ul>
+                            <li>
+                                <i class="sprite_nora_vibration low"></i>
+                                <p>Low</p>
+                            </li>
+                            <li>
+                                <i class="sprite_nora_vibration medium"></i>
+                                <p>Medium</p>
+                            </li>
+                            <li>
+                                <i class="sprite_nora_vibration high"></i>
+                                <p>High</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

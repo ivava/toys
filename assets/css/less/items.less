@@ -24,3 +24,61 @@
     }
   }
 }
+
+.item_preview {
+  .item_thumb {
+    margin-bottom: 20px;
+    width: 272px;
+    height: 272px;
+    overflow: hidden;
+    .margin_align();
+    .border();
+    .radius(50%);
+  }
+  .item_heading {
+    margin-bottom: 10px;
+  }
+  .item_options {
+    .align();
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+      }
+    }
+    &.stimulation {
+      //width: 50%;
+      ul {
+        .align();
+        li {
+          width: 30%;
+          //float: left;
+          span {
+            .margin_align();
+            display: block;
+            background: @textGray;
+            width: 30px;
+            height: 4px;
+            .radius(5px);
+            margin-bottom: 5px;
+            &.pink {
+              background: @base_color;
+            }
+
+          }
+        }
+      }
+    }
+    &.multiply_body {
+      ul {
+        padding: 0;
+      }
+      i {
+        .margin_align();
+      }
+    }
+  }
+  .item_heading {
+    .align();
+  }
+}

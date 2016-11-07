@@ -50,7 +50,7 @@ h4 {
   font-family: 'roboto_medium';
   margin-top: 0;
   margin-bottom: 0;
-  text-shadow: 1px 1px 1px #f2f2f2;
+  text-shadow: 1px 1px 1px #dadada;
 }
 h1 {
   font-size: 35px;
@@ -116,6 +116,22 @@ p.larg {
 .light_black_color {
   color: #404040;
 }
+.sprite_nora_vibration {
+  background-image: url(../img/nora-level-2.jpg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 70px;
+  height: 40px;
+}
+.sprite_nora_vibration.low {
+  background-position: left top;
+}
+.sprite_nora_vibration.medium {
+  background-position: center center;
+}
+.sprite_nora_vibration.high {
+  background-position: right center;
+}
 html {
   height: 100%;
   min-height: 100%;
@@ -154,6 +170,9 @@ body {
 }
 .nora .text.bottom_text {
   margin-top: 350px;
+}
+.nora .item {
+  margin-top: 35px;
 }
 header {
   padding: 15px;
@@ -252,4 +271,61 @@ footer {
 }
 .items_panels .item_wrapper .item_about .more_btn {
   margin-top: 25px;
+}
+.item_preview .item_thumb {
+  margin-bottom: 20px;
+  width: 272px;
+  height: 272px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.item_preview .item_heading {
+  margin-bottom: 10px;
+}
+.item_preview .item_options {
+  text-align: center;
+}
+.item_preview .item_options ul {
+  list-style: none;
+}
+.item_preview .item_options ul li {
+  display: inline-block;
+}
+.item_preview .item_options.stimulation ul {
+  text-align: center;
+}
+.item_preview .item_options.stimulation ul li {
+  width: 30%;
+}
+.item_preview .item_options.stimulation ul li span {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #acacac;
+  width: 30px;
+  height: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin-bottom: 5px;
+}
+.item_preview .item_options.stimulation ul li span.pink {
+  background: #f03e8f;
+}
+.item_preview .item_options.multiply_body ul {
+  padding: 0;
+}
+.item_preview .item_options.multiply_body i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item_preview .item_heading {
+  text-align: center;
 }
