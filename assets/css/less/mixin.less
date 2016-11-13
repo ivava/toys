@@ -80,6 +80,18 @@
   justify-content: @space;
   align-items: center;
 }
+.shadow(@properties) {
+  box-shadow: @properties;
+  -webkit-box-shadow: @properties;
+  -moz-box-shadow: @properties;
+  -o-box-shadow: @properties;
+}
+.border_img(@propreties) {
+  -moz-border-image: @propreties;
+  -webkit-border-image: @propreties;
+  -o-border-image: @propreties;
+  border-image: @propreties;
+}
 
 //prefix mixins
 

@@ -12,3 +12,6 @@
         </div>
     </div>
 </footer>
+<script src="assets/js/screen_gallery.js"></script>
+</body>
+</html>

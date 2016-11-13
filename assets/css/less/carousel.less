@@ -1,0 +1,56 @@
+.screen_carousel {
+  @slide_width: 350px;
+  @slide_height: 600px;
+  .screen_slides {
+    .slides {
+      width: @slide_width;
+      position: relative;
+      .slides_container {
+        padding-left: 50px;
+        overflow: hidden;
+        position: relative;
+        width: @slide_width;
+        height: @slide_height;
+        list-style: none;
+        //border: 10px solid transparent;
+        //.border_img(url('../img/screen_bord.jpg') 1 repeat repeat);
+        li {
+          right: @slide_width;
+          position: absolute;
+          top: 0;
+          overflow: hidden;
+          .transition();
+          &.active {
+            right: 0;
+          }
+          img {
+            width: @slide_width;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .controls {
+    .controls_container {
+      list-style: none;
+      .align(right);
+      padding-right: 50px;
+      li {
+        cursor: pointer;
+        display: inline-block;
+        width: 120px;
+        height: 210px;
+        overflow: hidden;
+        .transition();
+        img {
+          width: 100%;
+          height: auto;
+        }
+        &.active {
+          .shadow(0 0 0 3px  @base_color);
+        }
+      }
+    }
+  }
+}

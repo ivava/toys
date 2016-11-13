@@ -38,6 +38,12 @@
   padding: 60px 0;
   text-align: center;
 }
+.shadow_separate {
+  box-shadow: 0 0 3px 3px #dadada;
+  -webkit-box-shadow: 0 0 3px 3px #dadada;
+  -moz-box-shadow: 0 0 3px 3px #dadada;
+  -o-box-shadow: 0 0 3px 3px #dadada;
+}
 body {
   font-family: 'open_sans';
   font-size: 14px;
@@ -204,6 +210,19 @@ body {
 .nora .advantage .button {
   margin-top: 50px;
 }
+.nora .interface_view {
+  margin-bottom: 100px;
+  padding: 25px 0 50px 0;
+}
+.nora .instruction_steps {
+  padding-bottom: 100px;
+}
+.nora .instruction_steps h1 {
+  margin-bottom: 50px;
+}
+.nora .instruction_steps .button {
+  margin-top: 50px;
+}
 header {
   padding: 15px;
 }
@@ -283,6 +302,63 @@ footer {
   border-radius: 90px;
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
+}
+.screen_carousel .screen_slides .slides {
+  width: 350px;
+  position: relative;
+}
+.screen_carousel .screen_slides .slides .slides_container {
+  padding-left: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 350px;
+  height: 600px;
+  list-style: none;
+}
+.screen_carousel .screen_slides .slides .slides_container li {
+  right: 350px;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.screen_carousel .screen_slides .slides .slides_container li.active {
+  right: 0;
+}
+.screen_carousel .screen_slides .slides .slides_container li img {
+  width: 350px;
+  height: auto;
+}
+.screen_carousel .controls .controls_container {
+  list-style: none;
+  text-align: right;
+  padding-right: 50px;
+}
+.screen_carousel .controls .controls_container li {
+  cursor: pointer;
+  display: inline-block;
+  width: 120px;
+  height: 210px;
+  overflow: hidden;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.screen_carousel .controls .controls_container li img {
+  width: 100%;
+  height: auto;
+}
+.screen_carousel .controls .controls_container li.active {
+  box-shadow: 0 0 0 3px #f03e8f;
+  -webkit-box-shadow: 0 0 0 3px #f03e8f;
+  -moz-box-shadow: 0 0 0 3px #f03e8f;
+  -o-box-shadow: 0 0 0 3px #f03e8f;
 }
 .items_panels .item_wrapper {
   padding: 0 40px;
