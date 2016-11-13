@@ -225,7 +225,7 @@ include ('header.php');
                        <img src="assets/img/nora-steps.jpg" alt="steps" />
                        </div>
 
-                </div>
+
                 <div class="col-md-4 text-center">
                     <h3>Скачай</h3>
                 </div>
@@ -242,7 +242,110 @@ include ('header.php');
                         </a>
                     </div>
                 </div>
+                    <div class="row">
+                        <div class="col-md-12 text text-center mar_top_50">
+                            <p class="larg medium_font">Connect Nora to a
+                                bluetooth-enabled
+                                device and you will see a control panel
+                                in our smartphone app or PC/MAC software.
+                                Total set-up time for all devices is just a
+                                few minutes! After you connect once,
+                                your device will automatically remember it.</p>
+                            <p class="larg medium_font">Of course, you can also
+                                control the vibrator using the
+                                buttons on the handle.</p>
+                        </div>
+                        </div>
+                    </div>
             </div>
+            </div>
+    <div class="advantage nora shadow_separate transparent bot_advantage">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 item">
+                    <div class="item_wrapper">
+                        <div class="item_icon">
+                            <i class="sprite_nora_bott sprite_nora_bott-sprite_nora"></i>
+                        </div>
+
+                    </div>
+                    <div class="item_text text-center">
+                        <h3 class="light_font larg">Режим соло</h3>
+                        <ul class="check_marker mar_top_20">
+                            <li>Полностью затопляемый</li>
+                            <li>Легко чистить</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="item_wrapper">
+                        <div class="item_icon">
+                            <i class="sprite_nora_bott sprite_nora_bott-sprite_nora_2"></i>
+                        </div>
+                    </div>
+                    <div class="item_text text-center">
+                        <h3 class="light_font larg">Легко заряжать</h3>
+                        <ul class="check_marker mar_top_20">
+                            <li>2 часов непрерывной работы</li>
+                            <li>30 дней в режиме ожидания</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="item_wrapper">
+                        <div class="item_icon">
+                            <i class="sprite_nora_bott sprite_nora_bott-sprite_nora_3"></i>
+
+                        </div>
+                    </div>
+                    <div class="item_text text-center">
+                        <h3 class="light_font larg">Body Safe Materials</h3>
+                        <ul class="check_marker mar_top_20">
+                            <li>ABS Plastic</li>
+                            <li>High Quality Silicone</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a class="button transparent center larg">
+                        Купить сейчас
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="big_separate">
+        <h1 class="larg white_text">
+            Что входит в комплект
+        </h1>
+    </div>
+    <div class="item_commplect">
+        <div class="container_fluid">
+            <div class="row">
+                <div class="col-md-6 dildo_shem">
+                    <img src="assets/img/dildo.jpg" alt="dildo"  class="img-responsive img_center" />
+                </div>
+                <div class="col-md-6 dildo_text">
+                    <h2 class="larg light_font">What's included:</h2>
+                    <ul class="no_padd">
+                        <li class="medium_font">(1) Bluetooth Rabbit Vibrator</li>
+                        <li class="medium_font">(1) USB Bluetooth Dongle</li>
+                        <li class="medium_font">(1) USB Charging Cable</li>
+                        <li class="medium_font">(1) User Manual</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                <a class="button center ultra_larg mar_top_50">
+                    Купить сейчас
+                </a>
+                    </div>
+            </div>
+        </div>
+    </div>
 </main>
 <?php
 include ('footer.php');

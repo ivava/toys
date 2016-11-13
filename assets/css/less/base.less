@@ -5,7 +5,9 @@
     height: auto;
   }
 }
-
+ul {
+  list-style: none;
+}
 .big_separate {
   background: @separate_col;
   padding: 50px;
@@ -22,5 +24,25 @@
 
 }
 .shadow_separate {
-  .shadow(0 0 3px 3px  @bord_color);
+  .shadow(0 0 6px 4px  @bord_color);
+}
+.list_inline {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+.check_marker {
+  .align(left);
+  list-style: none;
+  li {
+    background: url('../img/check-gray.jpg') no-repeat left center;
+    padding-left: 35px;
+  }
+}
+.no_padd {
+  padding: 0;
+}
+.img_center {
+  .margin_align();
 }

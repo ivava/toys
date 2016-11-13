@@ -8,13 +8,19 @@
   color: @white;
   text-transform: uppercase;
   cursor: pointer;
-  .btn_hover();
+  .dark_hover(@base_color);
   .align();
+  &:hover {
+    color: @white;
+  }
   &.center {
         .margin_align();
       }
   &.larg {
     width: @button_width * 2;
+  }
+  &.ultra_larg {
+    width: 50%;
   }
   &.transparent {
     background: transparent;

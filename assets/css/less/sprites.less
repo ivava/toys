@@ -39,3 +39,28 @@
   }
 }
 
+.stitches-sprite_nora_bott(@x: 0, @y: 0, @width: 0, @height: 0) {
+  background-position: @x @y;
+  width: @width;
+  height: @height;
+}
+
+.sprite_nora_bott {
+  background-image: url('../img/sprite_nora_bott.png');
+  background-repeat: no-repeat;
+  display: block;
+
+  &.sprite_nora_bott-sprite_nora {
+    .stitches-sprite_nora_bott(-5px, -5px, 374px, 379px);
+  }
+
+  &.sprite_nora_bott-sprite_nora_2 {
+    .stitches-sprite_nora_bott(-389px, -5px, 353px, 354px);
+  }
+
+  &.sprite_nora_bott-sprite_nora_3 {
+    .stitches-sprite_nora_bott(-389px, -369px, 351px, 351px);
+  }
+}
+
+

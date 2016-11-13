@@ -24,4 +24,22 @@
       }
     }
   }
+  &.transparent {
+    .item {
+      .item_wrapper {
+        width: 375px;
+        height: 375px;
+        overflow: hidden;
+        background: transparent;
+        .item_text {
+          * {
+            color: @black;
+          }
+        }
+        .item_icon {
+          padding-top: 0;
+        }
+      }
+    }
+  }
 }
