@@ -20,6 +20,18 @@
     color: @color;
   }
 }
+.dark_hover(@color) {
+  .transition_fast();
+  &:hover {
+    background: darken(@color, 5%);
+  }
+}
+.scale_hover(@scale: 1.1) {
+  .transition();
+  &:hover {
+    .transform(scale(@scale));
+  }
+}
 // hovers
 
 
@@ -79,12 +91,7 @@
   background-size: cover;
 }
 
-.dark_hover(@color) {
-  .transition_fast();
-  &:hover {
-    background: darken(@color, 5%);
-  }
-}
+
 .border(@color: @bord_color) {
   border: 1px solid @color;
 }

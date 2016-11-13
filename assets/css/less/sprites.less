@@ -14,3 +14,28 @@
     background-position: right center;
   }
 }
+
+.stitches-sprite_nora_adv(@x: 0, @y: 0, @width: 0, @height: 0) {
+  background-position: @x @y;
+  width: @width;
+  height: @height;
+}
+
+.sprite_nora_adv {
+  background-image: url('../img/sprite_nora_advantage.png');
+  background-repeat: no-repeat;
+  display: block;
+
+  &.sprite_nora_adv-control_ico {
+    .stitches-sprite_nora_adv(-5px, -5px, 146px, 92px);
+  }
+
+  &.sprite_nora_adv-play_ico {
+    .stitches-sprite_nora_adv(-5px, -95px, 106px, 92px);
+  }
+
+  &.sprite_nora_adv-sex_ico {
+    .stitches-sprite_nora_adv(-161px, -5px, 144px, 92px);
+  }
+}
+

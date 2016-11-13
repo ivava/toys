@@ -1,0 +1,27 @@
+.advantage {
+  margin: 100px 0;
+  .item {
+    .item_wrapper {
+      width: 250px;
+      height: 250px;
+      background: @base_color;
+      cursor: pointer;
+      .scale_hover(1.02);
+      .dark_hover(@base_color);
+      .radius(50%);
+      .margin_align();
+      .item_icon {
+        padding-top: 50px;
+        * {
+          .margin_align();
+        }
+      }
+      .item_text {
+        .align();
+        * {
+          color: @white;
+        }
+      }
+    }
+  }
+}

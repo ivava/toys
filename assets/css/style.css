@@ -70,6 +70,9 @@ h2.larg {
 h3 {
   font-size: 21px;
 }
+h3.larg {
+  font-size: 25.2px;
+}
 h4 {
   font-size: 18px;
 }
@@ -116,6 +119,10 @@ p.larg {
 .light_black_color {
   color: #404040;
 }
+.light_font {
+  font-family: 'roboto_light';
+  font-weight: 100;
+}
 .sprite_nora_vibration {
   background-image: url(../img/nora-level-2.jpg);
   background-repeat: no-repeat;
@@ -131,6 +138,26 @@ p.larg {
 }
 .sprite_nora_vibration.high {
   background-position: right center;
+}
+.sprite_nora_adv {
+  background-image: url('../img/sprite_nora_advantage.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite_nora_adv.sprite_nora_adv-control_ico {
+  background-position: -5px -5px;
+  width: 146px;
+  height: 92px;
+}
+.sprite_nora_adv.sprite_nora_adv-play_ico {
+  background-position: -5px -95px;
+  width: 106px;
+  height: 92px;
+}
+.sprite_nora_adv.sprite_nora_adv-sex_ico {
+  background-position: -161px -5px;
+  width: 144px;
+  height: 92px;
 }
 html {
   height: 100%;
@@ -171,8 +198,11 @@ body {
 .nora .text.bottom_text {
   margin-top: 350px;
 }
-.nora .item {
+.nora .item_opt {
   margin-top: 35px;
+}
+.nora .advantage .button {
+  margin-top: 50px;
 }
 header {
   padding: 15px;
@@ -213,7 +243,39 @@ footer {
   background: #f03e8f;
   color: #ffffff;
   text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
   text-align: center;
+}
+.button:hover {
+  background: #ffffff;
+  color: #f03e8f;
+}
+.button.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button.larg {
+  width: 360px;
+}
+.button.transparent {
+  background: transparent;
+  color: #f03e8f;
+  border: 1px solid #f03e8f;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button.transparent:hover {
+  background: #f03e8f;
+  color: #ffffff;
 }
 .button.circle {
   background: transparent;
@@ -221,15 +283,6 @@ footer {
   border-radius: 90px;
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-.button.circle:hover {
-  background: #ffffff;
-  color: #f03e8f;
 }
 .items_panels .item_wrapper {
   padding: 0 40px;
@@ -328,4 +381,53 @@ footer {
 }
 .item_preview .item_heading {
   text-align: center;
+}
+.advantage {
+  margin: 100px 0;
+}
+.advantage .item .item_wrapper {
+  width: 250px;
+  height: 250px;
+  background: #f03e8f;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advantage .item .item_wrapper:hover {
+  transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+}
+.advantage .item .item_wrapper:hover {
+  background: #ee2681;
+}
+.advantage .item .item_wrapper .item_icon {
+  padding-top: 50px;
+}
+.advantage .item .item_wrapper .item_icon * {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advantage .item .item_wrapper .item_text {
+  text-align: center;
+}
+.advantage .item .item_wrapper .item_text * {
+  color: #ffffff;
 }

@@ -46,7 +46,7 @@ include ('header.php');
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 item rotate_head">
+                <div class="col-md-4 item rotate_head item_opt">
                     <div class="item_thumb">
                         <img src="assets/img/gifs/Nora-rotating-head.gif" class="img-center" />
                     </div>
@@ -77,7 +77,7 @@ include ('header.php');
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 item">
+                <div class="col-md-4 item_opt">
                     <div class="item_thumb">
                         <img src="assets/img/Nora-shaft.jpg" alt="nora" class="img-center" />
                     </div>
@@ -88,7 +88,7 @@ include ('header.php');
                         <p>Мягкая стимуляция нужных мест во время движений</p>
                     </div>
                 </div>
-                <div class="col-md-4 item">
+                <div class="col-md-4 item_opt">
                     <div class="item_thumb">
                         <img src="assets/img/gifs/Nora-vibrating-arm.gif" alt="nora" class="img-center" />
                     </div>
@@ -112,6 +112,54 @@ include ('header.php');
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="big_separate">
+        <h1 class="larg white_text">
+            You or your partner have complete control!
+        </h1>
+    </div>
+    <div class="advantage nora">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 item">
+                    <div class="item_wrapper">
+                    <div class="item_icon">
+                    <i class="sprite_nora_adv sprite_nora_adv-play_ico"></i>
+                        </div>
+                    <div class="item_text">
+                        <h3 class="light_font larg">Режим соло</h3>
+                    </div>
+                        </div>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="item_wrapper">
+                    <div class="item_icon">
+                    <i class="sprite_nora_adv sprite_nora_adv-control_ico"></i>
+                        </div>
+                    <div class="item_text">
+                        <h3 class="light_font larg">Дистанционное управление</h3>
+                    </div>
+                        </div>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="item_wrapper">
+                    <div class="item_icon">
+                        <i class="sprite_nora_adv sprite_nora_adv-sex_ico"></i>
+                    </div>
+                    <div class="item_text">
+                        <h3 class="light_font larg">Секс на растоянии</h3>
+                    </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a class="button transparent center larg">
+                        Купить сейчас
+                    </a>
                 </div>
             </div>
         </div>

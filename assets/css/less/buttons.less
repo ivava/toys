@@ -7,11 +7,24 @@
   background: @base_color;
   color: @white;
   text-transform: uppercase;
+  cursor: pointer;
+  .btn_hover();
   .align();
+  &.center {
+        .margin_align();
+      }
+  &.larg {
+    width: @button_width * 2;
+  }
+  &.transparent {
+    background: transparent;
+    color: @base_color;
+    .border(@base_color);
+    .btn_hover(@base_color, @white);
+  }
   &.circle {
     background: transparent;
     .border(@white);
     .radius(@button_width / 2);
-    .btn_hover();
   }
 }

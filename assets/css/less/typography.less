@@ -12,10 +12,12 @@
 @h1_size: @baseFontSize * 2.5;
 @h2_size: @baseFontSize * 2;
 @h3_size: @baseFontSize * 1.5;
+@h3_larg: @h3_size * 1.2;
 @h4_size: @baseFontSize + 4;
 @h1_larg: @h1_size * 1.5;
 @h2_larg: @h2_size * 1.5;
 @h2_small: @h2_size * 0.7;
+
 
 
 body {
@@ -46,6 +48,9 @@ h2 {
 }
 h3 {
   font-size: @h3_size;
+  &.larg {
+    font-size: @h3_larg;
+  }
 }
 h4 {
   font-size: @h4_size;
@@ -85,5 +90,9 @@ p {
 }
 .light_black_color {
   color: @light_black;
+}
+.light_font {
+  font-family: @lightFont;
+  font-weight: 100;
 }
 
