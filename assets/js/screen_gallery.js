@@ -1,9 +1,6 @@
 $(document).ready(function() {
     initScreenGallery($('.controls_container'), $('.slides_container'));
 
-
-
-
     function initScreenGallery(controlContainer, slideContainer) {
         var controls = $(controlContainer.find('li'));
         var slides = $(slideContainer.find('li'));
@@ -21,5 +18,5 @@ $(document).ready(function() {
                 $(this).addClass('active');
                 event.preventDefault();
             });
-    }
+    };
 });
