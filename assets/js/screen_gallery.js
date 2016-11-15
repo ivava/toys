@@ -13,10 +13,31 @@ $(document).ready(function() {
                var targetCount = $(this).attr('data-target');
                 var target = slidesCount[targetCount];
                 $(target).addClass('active');
-
                 controls.removeClass('active');
                 $(this).addClass('active');
                 event.preventDefault();
             });
+        var carouselControls = $('.carousel_controls');
+        var next = carouselControls.find('.next');
+        var prev = carouselControls.find('.prev');
+        var count;
+        next.click(function() {
+           slides.removeClass('active');
+           if (count >= slides.length) {
+               count = 0;
+           }
+           slidesCount[count].addClass('active');
+            count++;
+        });
+            prev.click(function() {
+                slides.removeClass('active');
+                if (count == 0) {
+                    count = slides.length;
+                    slidesCount[count].addClass('active');
+                } else {
+                    slidesCount[count - 1].addClass('active');
+                }
+                count--;
+            })
     };
 });

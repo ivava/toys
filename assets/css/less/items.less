@@ -82,3 +82,59 @@
     .align();
   }
 }
+.item_list {
+  padding: 50px 0 100px 0;
+  &.inline {
+    .item {
+      height: 350px;
+      position: relative;
+      .item_wrapper {
+        width: 90%;
+        padding: 10px 0;
+        border: 5px solid @base_color;
+        .margin_align();
+        overflow: hidden;
+        .hidden_block {
+          opacity: 0;
+          height: 0;
+          min-height: 0;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          .transition();
+        }
+        &:hover {
+          .hidden_block {
+            height: 350px;
+            opacity: 1;
+          }
+        }
+        .item_thumb {
+          height: 300px;
+          overflow: hidden;
+          cursor: pointer;
+          .scale_hover();
+          img {
+            max-width: 80%;
+          }
+        }
+        .item_title {
+          .align();
+        }
+        }
+      .hidden_btn {
+          opacity: 0;
+        .transition_fast();
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        }
+        &:hover {
+        .hidden_btn {
+          opacity: 1;
+          }
+        }
+      }
+    }
+  }
