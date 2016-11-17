@@ -77,6 +77,9 @@ ul {
 .overlay {
   background: rgba(240, 62, 143, 0.5);
 }
+.base_bg {
+  background: #f03e8f;
+}
 body {
   font-family: 'open_sans';
   font-size: 14px;
@@ -165,6 +168,10 @@ p.larg {
 .medium_font {
   font-family: 'roboto_medium';
   font-weight: 200;
+}
+.margin_heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .sprite_nora_vibration {
   background-image: url(../img/nora-level-2.jpg);
@@ -270,6 +277,61 @@ main.main_page .about_smart .smart_text {
 main.main_page .about_smart .smart_text p {
   line-height: 1.7;
 }
+main.main_page .screen_carousel {
+  padding: 100px;
+}
+main.main_page .screen_carousel .screen_slides .slides {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+main.main_page .screen_carousel .carousel_about ul {
+  padding: 0;
+}
+main.main_page .screen_carousel .carousel_about ul li {
+  line-height: 2.3;
+}
+main.main_page .screen_carousel .carousel_about ul.device_ul li i {
+  margin-right: 15px;
+  font-size: 16px;
+}
+main.main_page .screen_carousel .carousel_controls {
+  margin-top: 50px;
+  text-align: center;
+}
+main.main_page .screen_carousel .carousel_controls a.prev {
+  float: left;
+}
+main.main_page .screen_carousel .carousel_controls a.next {
+  float: right;
+}
+main.main_page .screen_carousel .carousel_controls i {
+  font-size: 60px;
+}
+main.main_page .advantage_instuction {
+  background: url('../img/bf_rrr.jpg') no-repeat;
+  background-size: cover;
+  background: url('../img/bf_rrr.jpg') no-repeat 0 bottom;
+  padding: 100px 0 300px 0;
+  background-size: 100%;
+}
+main.main_page .advantage_instuction h2 {
+  margin-bottom: 20px;
+}
+main.main_page .advantage_instuction .content .content_text div {
+  margin-bottom: 0px;
+  padding: 20px;
+}
+main.main_page .advantage_instuction .content .content_text div .wrapper {
+  min-height: 200px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border: 1px solid #f03e8f;
+}
+main.main_page .advantage_instuction .content .content_text p {
+  line-height: 1.7;
+}
 .main_wrapper {
   background: url('../img/banner.jpg') no-repeat;
   background-size: cover;
@@ -373,6 +435,7 @@ footer {
   padding: 13px;
   box-sizing: border-box;
   font-size: 16px;
+  font-family: 'roboto_medium';
   background: #f03e8f;
   color: #ffffff;
   text-transform: uppercase;
@@ -478,6 +541,9 @@ footer {
   -webkit-box-shadow: 0 0 0 3px #f03e8f;
   -moz-box-shadow: 0 0 0 3px #f03e8f;
   -o-box-shadow: 0 0 0 3px #f03e8f;
+}
+.screen_carousel .carousel_controls * {
+  color: #1a1a1a;
 }
 .items_panels .item_wrapper {
   padding: 0 40px;
@@ -634,6 +700,9 @@ footer {
 .item_list.inline .item .item_wrapper .item_title {
   text-align: center;
 }
+.item_list.inline .item .item_wrapper.no_bord {
+  border: none;
+}
 .item_list.inline .item .hidden_btn {
   opacity: 0;
   -webkit-transition: all 0.2s;
@@ -708,4 +777,15 @@ footer {
 }
 .advantage.transparent .item .item_wrapper .item_icon {
   padding-top: 0;
+}
+.nav-tabs {
+  margin: 50px;
+}
+.nav-tabs a {
+  font-size: 21px;
+}
+.nav-tabs.tab_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

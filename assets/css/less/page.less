@@ -21,6 +21,70 @@ main {
         }
       }
     }
+    .screen_carousel {
+      padding: 100px;
+    .screen_slides {
+      .slides {
+        .margin_align();
+        }
+      }
+      .carousel_about {
+        ul {
+          padding: 0;
+            li {
+              line-height: 2.3;
+            }
+          &.device_ul {
+            li {
+              i {
+                margin-right: 15px;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .carousel_controls {
+        margin-top: 50px;
+        .align();
+        a {
+          &.prev {
+            float: left;
+          }
+          &.next {
+            float: right;
+          }
+        }
+        i {
+          font-size: 60px;
+        }
+      }
+    }
+    .advantage_instuction {
+      .cover('../img/bf_rrr.jpg');
+      background: url('../img/bf_rrr.jpg') no-repeat 0 bottom;
+      padding: 100px 0 300px 0;
+      background-size: 100%;
+      h2 {
+        margin-bottom: 20px;
+      }
+      .content {
+        .content_text {
+        div {
+          margin-bottom: 0px;
+          padding: 20px;
+            .wrapper {
+              min-height: 200px;
+              .radius(15px);
+              .border(@base_color);
+            }
+          }
+          p {
+            line-height: 1.7;
+          }
+        }
+      }
+    }
   }
 }
 
