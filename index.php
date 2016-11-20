@@ -277,6 +277,28 @@ include ("header.php");
             Take Control. Anytime. Anywhere.
         </h1>
     </div>
+    <div class="video">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section_capt">
+                        <h1 class="text_color_base">
+                            Посмотрите, как именно наши
+                            секс-игрушки для отношений на
+                            расстоянии делают все с поразительной синхронностью!
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <div class="video_wrapper inline_block">
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/5BZJIXFtj8s"
+                                frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="item_list inline">
         <div class="container-fluid">
             <div class="row">
